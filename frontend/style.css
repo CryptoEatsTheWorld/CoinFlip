@@ -1,0 +1,77 @@
+.jumbotron-fluid {
+  background: url("./img/money-fade.jpg") no-repeat;
+  background-size: cover;
+  border-bottom: solid 2px #000;
+}
+
+.container {
+  font-size: 18px;
+}
+
+#inputArea {
+  max-width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#inputArea input {
+  width: 20%;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.lead {
+  margin-bottom: 20px;
+}
+
+.display-4 {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.coin-img {
+  width: 400px;
+  height: 321px;
+  margin: 0 auto;
+}
+
+#inputWrap {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contain {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contain-inner {
+  display: block;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#flip_button {
+  display: block;
+  margin: 10px auto;
+  font-size: 25px;
+  padding: 5px 20px;
+  background-color: green;
+}
+
+#amount_input {
+  flex: none;
+}

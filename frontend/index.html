@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Coin Flip</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./web3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
+    <script type="text/javascript" src="./abi.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" >
+
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-4">Coin Flip</h1>
+            <h3 class="lead">Try Your Odds!</h3>
+            <p>1. Enter below the amount you would like to bet</p>
+            <p>2. Select either Heads or Tails</p>
+            <p>3. Click the FLIP button to go ahead and flip the coin</p>
+            <p>If you lose, your bet is kept. But, if you WIN, you get back <b>DOUBLE</b> the amount you bet!</p>
+            <p>Feeling Lucky?</p>
+          </div>
+          <div class="col right">
+            <div class="coin-img">
+              <img src="./img/eth-coin.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="result_box">
+      </div>
+    </div>
+    <div class="container">
+      <div id="inputArea">
+        <h5>Enter an amount between 0.1 and 10 Ether</h5>
+        <div class="input-group mb-3">
+          <div id="inputWrap"><input type="text" class="form-control" id="amount_input" placeholder="0.0" ></div>
+          <div class="contain">
+            <div class="contain-inner">
+              <div class="row">
+                <div class="col">
+                  <input type="radio" id="heads" name="flipping" value="0">
+                  <label for="heads">HEADS</label>
+                </div>
+                <div class="col">
+                  <input type="radio" id="tails" name="flipping" value="1">
+                  <label for="tails">TAILS</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" id="flip_button" class="btn btn-primary">FLIP</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
