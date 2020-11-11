@@ -1,6 +1,6 @@
 # CoinFlip
 
-This is a project I created as the final practical assignemnt for the SOlidity Programming 201 Course offerred at Ivan on Tech Academy.
+This is a project I created as the final practical assignemnt for the "Solidity Programming 201" Course offerred at Ivan on Tech Academy.
 
 It is basically a simple dapp for betting some Eth and picks heads or tails and then clicking the button to "flip the coin".
 
